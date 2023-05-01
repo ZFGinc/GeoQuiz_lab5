@@ -23,9 +23,6 @@
     - [Упражнение. Лазейка для читера](#cheat)
     - [Упражнение. Отслеживание читов по вопросу](#find_cheat)
     - [CodeWars](#codewars)
-
-    - [Упражнение. Исследуем Layout Inspector](#layout_inspector)
-    - [Упражнение. Profiler](#profiler)
 - [Вывод](#вывод)
 
 ***
