@@ -311,7 +311,7 @@ fun simpleMultiplication(n: Int): Int {
     if(n%2==0) return n*8
     return n*9
 }
-``
+```
 <img src = "images/3-1.png">
 
 ### [Remove String Spaces](https://www.codewars.com/kata/57eae20f5500ad98e50002c5)
@@ -319,13 +319,13 @@ fun simpleMultiplication(n: Int): Int {
 fun noSpace(x: String): String {
     return x.replace(" ", "")
 }
-``
+```
 <img src = "images/3-2.png">
 
 ### [String repeat](https://www.codewars.com/kata/57a0e5c372292dd76d000d7e)
 ```kotlin
 fun repeatStr(r: Int, str: String) : String = str.repeat(r)
-``
+```
 <img src = "images/3-3.png">
 
 ### [Function 1 - hello world](https://www.codewars.com/kata/523b4ff7adca849afe000035)
@@ -333,7 +333,7 @@ fun repeatStr(r: Int, str: String) : String = str.repeat(r)
 fun greet (): String {
     return "hello world!"
 }
-``
+```
 <img src = "images/3-4.png">
 
 ### [Square(n) Sum](https://www.codewars.com/kata/515e271a311df0350d00000f)
@@ -347,7 +347,7 @@ fun squareSum(n: Array<Int>): Int {
     }
     return ss
 }
-``
+```
 <img src = "images/3-5.png">
 
 ### [Century From Year](https://www.codewars.com/kata/5a3fe3dde1ce0e8ed6000097)
@@ -361,7 +361,7 @@ fun century(year: Int): Int {
     } 
     return century
 }
-``
+```
 <img src = "images/3-6.png">
 
 ### [Is n divisible by x and y?](https://www.codewars.com/kata/5545f109004975ea66000086)
@@ -369,7 +369,7 @@ fun century(year: Int): Int {
 fun isDivisible(n: Int, x: Int, y: Int): Boolean {
     return (n % x + n % y) == 0
 }
-``
+```
 <img src = "images/3-7.png">
 
 ### [Even or Odd](https://www.codewars.com/kata/53da3dbb4a5168369a0000fe)
@@ -378,7 +378,7 @@ fun evenOrOdd(number: Int): String {
  if(number % 2 == 0) return "Even"
     else return "Odd"
 }
-``
+```
 <img src = "images/3-8.png">
 
 # <p align = "center">Вывод</p>
