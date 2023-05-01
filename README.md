@@ -36,6 +36,8 @@
 В настоящее время, когда пользователь читерит на одном вопросе, он считается читером по всем вопросам. Обновите GeoQuiz, чтобы отслеживать, сколько раз пользователь нарушал закон. Когда пользователь использует чит для ответа на заданный вопрос, осуждайте его всякий раз, когда он пытается ответить на этот вопрос. Когда пользователь отвечает на вопрос, с которым он не жульничал, покажите правильный или неправильный ответ.
 
 3. CodeWars
+ - [Profile CodeWars](https://www.codewars.com/users/ZFGinc)
+ 
  - [Simple multiplication](https://www.codewars.com/kata/583710ccaa6717322c000105)
  - [Remove String Spaces](https://www.codewars.com/kata/57eae20f5500ad98e50002c5)
  - [String repeat](https://www.codewars.com/kata/57a0e5c372292dd76d000d7e)
@@ -304,13 +306,80 @@ private fun addStatistic(){
 ## <p align = "center">CodeWars</p>
 
 ### [Simple multiplication](https://www.codewars.com/kata/583710ccaa6717322c000105)
+```kotlin
+fun simpleMultiplication(n: Int): Int {
+    if(n%2==0) return n*8
+    return n*9
+}
+``
+<img src = "images/3-1.png">
+
 ### [Remove String Spaces](https://www.codewars.com/kata/57eae20f5500ad98e50002c5)
+```kotlin
+fun noSpace(x: String): String {
+    return x.replace(" ", "")
+}
+``
+<img src = "images/3-2.png">
+
 ### [String repeat](https://www.codewars.com/kata/57a0e5c372292dd76d000d7e)
+```kotlin
+fun repeatStr(r: Int, str: String) : String = str.repeat(r)
+``
+<img src = "images/3-3.png">
+
 ### [Function 1 - hello world](https://www.codewars.com/kata/523b4ff7adca849afe000035)
+```kotlin
+fun greet (): String {
+    return "hello world!"
+}
+``
+<img src = "images/3-4.png">
+
 ### [Square(n) Sum](https://www.codewars.com/kata/515e271a311df0350d00000f)
+```kotlin
+package solution
+
+fun squareSum(n: Array<Int>): Int {
+    var ss = 0
+    for(x in n){
+        ss+=x*x
+    }
+    return ss
+}
+``
+<img src = "images/3-5.png">
+
 ### [Century From Year](https://www.codewars.com/kata/5a3fe3dde1ce0e8ed6000097)
+```kotlin
+fun century(year: Int): Int {
+    var century = 0
+    if (year % 100 == 0) { 
+        century = year / 100; 
+    } else { 
+        century = (year / 100) + 1; 
+    } 
+    return century
+}
+``
+<img src = "images/3-6.png">
+
 ### [Is n divisible by x and y?](https://www.codewars.com/kata/5545f109004975ea66000086)
+```kotlin
+fun isDivisible(n: Int, x: Int, y: Int): Boolean {
+    return (n % x + n % y) == 0
+}
+``
+<img src = "images/3-7.png">
+
 ### [Even or Odd](https://www.codewars.com/kata/53da3dbb4a5168369a0000fe)
+```kotlin
+fun evenOrOdd(number: Int): String {
+ if(number % 2 == 0) return "Even"
+    else return "Odd"
+}
+``
+<img src = "images/3-8.png">
 
 # <p align = "center">Вывод</p>
 
